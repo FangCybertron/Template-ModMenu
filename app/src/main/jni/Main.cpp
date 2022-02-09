@@ -151,23 +151,23 @@ void *hack_thread(void *) {
 
     LOGI(OBFUSCATE("%s has been loaded"), (const char *) targetLibName);
 
-hexPatches.MapHackIcon = MemoryPatch::createWithHex(targetLibName, //BUseEsportsEmblem
+hexPatches.MapHackIcon = MemoryPatch::createWithHex(targetLibName,
                                                     string2Offset(OBFUSCATE("0x4A87AD4")),
                                                     OBFUSCATE("01 00 A0 E1 1E FF 2F E1"));
 													
-hexPatches.MapHackIcon = MemoryPatch::createWithHex(targetLibName, //BUseEsportsEmblem
+hexPatches.MapHackIcon = MemoryPatch::createWithHex(targetLibName,
                                                     string2Offset(OBFUSCATE("0x4A87AD4")),
                                                     OBFUSCATE("01 00 A0 E1 1E FF 2F E1"));
 													
-hexPatches.VisibleInGrass = MemoryPatch::createWithHex(targetLibName, //BUseEsportsEmblem
+hexPatches.VisibleInGrass = MemoryPatch::createWithHex(targetLibName,
                                                     string2Offset(OBFUSCATE("0x4A87AD4")),
                                                     OBFUSCATE("01 00 A0 E1 1E FF 2F E1"));
 													
-hexPatches.UnlockSkin = MemoryPatch::createWithHex(targetLibName, //BUseEsportsEmblem
+hexPatches.UnlockSkin = MemoryPatch::createWithHex(targetLibName,
                                                     string2Offset(OBFUSCATE("0x4A87AD4")),
                                                     OBFUSCATE("01 00 A0 E1 1E FF 2F E1"));
 													
-hexPatches.UnlockSkin2 = MemoryPatch::createWithHex(targetLibName, //BUseEsportsEmblem
+hexPatches.UnlockSkin2 = MemoryPatch::createWithHex(targetLibName,
                                                     string2Offset(OBFUSCATE("0x4A87AD4")),
                                                     OBFUSCATE("01 00 A0 E1 1E FF 2F E1"));
 	
